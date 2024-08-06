@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+    .lm-scrollbar {
+        --scrollbar-track-bg: rgba(0,0,0,.05);
+        --scrollbar-thumb-bg: rgba(0,0,0,.12);
+
+    }
+    .lm-scrollbar::-webkit-scrollbar {
+        width: 5px
+    }
+
+    .lm-scrollbar::-webkit-scrollbar-track {
+        background-color: var(--scrollbar-track-bg)
+    }
+
+    .lm-scrollbar::-webkit-scrollbar-thumb {
+        background-color: var(--scrollbar-thumb-bg)
+    }
+  }
