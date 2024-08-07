@@ -1,6 +1,6 @@
 import { browser } from '$app/environment';
 import CryptoJS from 'crypto-js';
-
+const decryptCode = import.meta.env.VITE_CRYPTO_DECYPT_CODE;
 export const openCheckoutSidebar = $state({ value: false });
 //Cart
 export const openCartSidebar = $state({ value: false });
@@ -9,14 +9,12 @@ export const useLocalStorage = <T>(key: string, value: T) => {
 	if (browser) {
 		const item = localStorage.getItem(key);
 		if (item) {
-			let decryptedValue = CryptoJS.AES.decrypt(item, 'sdf123jfd@sadjf!dsf').toString(
-				CryptoJS.enc.Utf8
-			);
+			let decryptedValue = CryptoJS.AES.decrypt(item, decryptCode).toString(CryptoJS.enc.Utf8);
 			storage.value = JSON.parse(decryptedValue);
 		} else {
 			let encryptedValue = CryptoJS.AES.encrypt(
 				JSON.stringify(storage.value),
-				'sdf123jfd@sadjf!dsf'
+				decryptCode
 			).toString();
 			localStorage.setItem(key, encryptedValue);
 		}
@@ -30,7 +28,7 @@ export const useLocalStorage = <T>(key: string, value: T) => {
 			if (browser) {
 				let encryptedValue = CryptoJS.AES.encrypt(
 					JSON.stringify(storage.value),
-					'sdf123jfd@sadjf!dsf'
+					decryptCode
 				).toString();
 				localStorage.setItem(key, encryptedValue);
 				// localStorage.setItem(key, JSON.stringify(storage.value));

@@ -168,8 +168,8 @@
 		</div>
 		<small class="block mt-20 text-white/60 font-light text-xs"
 			>© 2024
-			<a href="/about" class="link text-white" data-svelte-h="svelte-1y04hry">Lemy</a> - Essential Oil
-			By You
+			<a href="/gioi-thieu" class="link text-white" data-svelte-h="svelte-1y04hry">Lemy</a> - Essential
+			Oil By You
 		</small>
 	</div>
 </footer>

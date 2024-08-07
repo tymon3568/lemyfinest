@@ -649,7 +649,7 @@
 					class="uppercase text-xs tracking-wide text-white/40 mb-4"
 					data-svelte-h="svelte-41wzc2">Thêm</span
 				>
-				<a href="/products/tinh-dau-xa" class="py-1.5 text-sm">Tinh dầu xả</a><a
+				<a href="/products/tinh-dau-sa" class="py-1.5 text-sm">Tinh dầu sả</a><a
 					href="/products/tinh-dau-bach-dan-chanh"
 					class="py-1.5 text-sm">Tinh dầu bạch đàn chanh</a
 				>
