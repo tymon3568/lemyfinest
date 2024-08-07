@@ -1,4 +1,3 @@
-import { VITE_SECRET_KEY_CF_TURNSITE } from '$env/static/private';
 import { fail, type Actions } from '@sveltejs/kit';
 export const actions: Actions = {
 	sendContact: async ({ request }) => {
@@ -14,7 +13,7 @@ export const actions: Actions = {
 		// Validate the token by calling the
 		// "/siteverify" API endpoint.
 		let body = new FormData() as any;
-		body.append('secret', VITE_SECRET_KEY_CF_TURNSITE);
+		body.append('secret', import.meta.env.VITE_SECRET_KEY_CF_TURNSITE);
 		body.append('response', token);
 		body.append('remoteip', ip);
 
