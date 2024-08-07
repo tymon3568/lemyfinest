@@ -1,7 +1,6 @@
 // place files you want to import through the `$lib` alias in this folder.
-import { env } from '$env/dynamic/private';
 import PocketBase from 'pocketbase';
-export let HOST_URL = env.VITE_HOST_URL;
+export let HOST_URL = 'https://admin.lemyfinest.com';
 export const pb = new PocketBase(HOST_URL);
 export let MAIN_URL = 'https://www.lemyfinest.com';
 export const variationOptions = [
