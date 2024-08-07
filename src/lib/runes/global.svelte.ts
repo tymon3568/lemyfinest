@@ -1,7 +1,15 @@
 import { browser } from '$app/environment';
-import { env } from '$env/dynamic/private';
+import { env } from '$env/dynamic/public';
 import CryptoJS from 'crypto-js';
-const decryptCode = env.VITE_CRYPTO_DECYPT_CODE;
+const decryptCode = 'sdf123jfd@sadjf!dsf';
+const decryptFunc = async (data: string) => {
+	const response = await fetch(`/api/decrypt`, {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+		body: JSON.stringify(data)
+	});
+	return response.json();
+};
 export const openCheckoutSidebar = $state({ value: false });
 //Cart
 export const openCartSidebar = $state({ value: false });
@@ -84,7 +92,7 @@ let cartStats = $derived.by(() => {
 	};
 });
 export function cartItems() {
-	const addToCart = (product: CartItem) => {
+	const addToCart = async (product: CartItem) => {
 		cartProducts.value = [...cartProducts.value, product];
 	};
 	const updateProductQuantity = (SKU: string, quantity: number) => {
