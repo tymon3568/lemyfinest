@@ -1,6 +1,7 @@
 import { browser } from '$app/environment';
+import { env } from '$env/dynamic/private';
 import CryptoJS from 'crypto-js';
-const decryptCode = import.meta.env.VITE_CRYPTO_DECYPT_CODE;
+const decryptCode = env.VITE_CRYPTO_DECYPT_CODE;
 export const openCheckoutSidebar = $state({ value: false });
 //Cart
 export const openCartSidebar = $state({ value: false });
