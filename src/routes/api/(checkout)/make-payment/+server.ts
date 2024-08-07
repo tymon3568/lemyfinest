@@ -1,9 +1,9 @@
 import { MAIN_URL, pb } from '$lib';
 import PayOS from '@payos/node';
-import { redirect } from '@sveltejs/kit';
-const VITE_PAYOS_API_KEY = import.meta.env.VITE_PAYOS_API_KEY;
-const VITE_PAYOS_CLIENT_ID = import.meta.env.VITE_PAYOS_CLIENT_ID;
-const VITE_PAYOS_CHECKSUM_KEY = import.meta.env.VITE_PAYOS_CHECKSUM_KEY;
+import { env } from '$env/dynamic/private';
+const VITE_PAYOS_API_KEY = env.VITE_PAYOS_API_KEY;
+const VITE_PAYOS_CLIENT_ID = env.VITE_PAYOS_CLIENT_ID;
+const VITE_PAYOS_CHECKSUM_KEY = env.VITE_PAYOS_CHECKSUM_KEY;
 const payOS = new PayOS(VITE_PAYOS_CLIENT_ID, VITE_PAYOS_API_KEY, VITE_PAYOS_CHECKSUM_KEY);
 
 export const POST = async ({ request }) => {
