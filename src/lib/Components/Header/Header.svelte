@@ -9,9 +9,12 @@
 		if ($page.url.pathname.startsWith('/products') && $page.url.pathname !== '/products') {
 			return false;
 		} else if (
-			['/chinh-sach-bao-mat-thong-tin', '/dieu-khoan-su-dung', '/chinh-sach-doi-tra'].includes(
-				$page.url.pathname
-			)
+			[
+				'/chinh-sach-bao-mat-thong-tin',
+				'/dieu-khoan-su-dung',
+				'/chinh-sach-doi-tra',
+				'/checkout/thank-you'
+			].includes($page.url.pathname)
 		) {
 			return false;
 		}

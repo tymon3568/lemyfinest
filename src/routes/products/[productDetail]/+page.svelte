@@ -213,7 +213,7 @@
 							>
 							<button
 								onclick={() => {
-										if (priceSelected == 'Chưa có giá') {
+										if (priceSelected == 'Chọn dung tích!') {
 											toast.info('Vui lòng chọn dung tích!')
 											return
 										}

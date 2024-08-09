@@ -52,7 +52,7 @@ export const POST = async ({ request }) => {
 		amount: orderInfo.totalPrice,
 		description: 'mua tinh dau',
 		items: items,
-		returnUrl: `${MAIN_URL}?success=true`,
+		returnUrl: `${MAIN_URL}/checkout/thank-you`,
 		cancelUrl: `${MAIN_URL}/support`
 	};
 

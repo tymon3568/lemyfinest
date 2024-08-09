@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { HOST_URL } from '$lib';
+	import { HOST_URL, MAIN_URL } from '$lib';
 	let { productDetail } = $props<{ productDetail: Product }>();
 	let activeTabImage = $state(0);
 	let mouseX = $state(0);
@@ -33,9 +33,11 @@
 		// scale
 		scale = imageContainer.offsetWidth / zoomLens.offsetWidth;
 		// Prevent the lens from being positioned outside the image
-		if (mouseX > imageContainer.offsetWidth - lensWidth * 2) mouseX = imageContainer.offsetWidth - lensWidth * 2;
+		if (mouseX > imageContainer.offsetWidth - lensWidth * 2)
+			mouseX = imageContainer.offsetWidth - lensWidth * 2;
 		if (mouseX < 0) mouseX = 0;
-		if (mouseY > imageContainer.offsetHeight - lensHeight * 2) mouseY = imageContainer.offsetHeight - lensHeight * 2;
+		if (mouseY > imageContainer.offsetHeight - lensHeight * 2)
+			mouseY = imageContainer.offsetHeight - lensHeight * 2;
 		if (mouseY < 0) mouseY = 0;
 	};
 </script>
@@ -105,11 +107,10 @@
 					/>
 					<div
 						bind:this={zoomLens}
-						class="{display} absolute top-0 left-0 h-1/2 aspect-square bg-[url('../assets/images/tile.webp')] max-lg:hidden cursor-crosshair"
+						class="{display} absolute top-0 left-0 h-1/2 aspect-square bg-[url('/assets/images/tile.webp')] max-lg:hidden cursor-crosshair"
 						style="transform: translate({mouseX}px, {mouseY}px);"
 					></div>
 				</div>
-			
 			</div>
 		</div>
 		<div
@@ -117,8 +118,8 @@
 			class="{display} absolute top-0 bottom-0 left-full translate-x-6 h-full aspect-square rounded-sm overflow-hidden max-lg:hidden"
 		>
 			<img
-			width="1280"
-			height="720"
+				width="1280"
+				height="720"
 				srcset="{HOST_URL}/api/files/{productDetail.collectionName}/{productDetail.id}/{productDetail
 					.product_image[activeTabImage]}"
 				alt={productDetail.name}
