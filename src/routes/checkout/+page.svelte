@@ -143,7 +143,7 @@
 					</form>
 				</div>
 				<div class="sm:mt-16"></div>
-				<script src="https://accounts.google.com/gsi/client" async defer></script>
+				<!-- <script src="https://accounts.google.com/gsi/client" async defer></script> -->
 			</div>
 			<div class="col-span-3 sm:col-span-1 theme-white mr-0 mt-0 py-0 pl-4 pr-12 pt-4 theme-white">
 				<div class="pl-0 sm:pl-6 theme-white sticky top-5">

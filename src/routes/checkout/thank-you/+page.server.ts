@@ -10,12 +10,12 @@ export const load: PageServerLoad = async ({ url }) => {
 	const orderCode = url.searchParams.get('orderCode');
 	if (status === 'PAID') {
 		try {
-			const orderDetail = await pb
-				.collection('order')
-				.getFirstListItem(`order_code="${orderCode}"`);
 			const { token, record } = await pb
 				.collection('users')
 				.authWithPassword(env.PB_USERNAME, env.PB_PASSWORD);
+			const orderDetail = await pb
+				.collection('order')
+				.getFirstListItem(`order_code="${orderCode}"`);
 			const updateOrderStatus = await pb.collection('order').update(orderDetail.id, {
 				status: 'm1egogm9nuze38h'
 			});

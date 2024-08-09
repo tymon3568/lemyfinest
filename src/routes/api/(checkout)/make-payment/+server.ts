@@ -15,11 +15,14 @@ export const POST = async ({ request }) => {
 		phone: customerInfo.phone,
 		email: customerInfo.email
 	};
+	const { token, record } = await pb
+		.collection('users')
+		.authWithPassword(env.PB_USERNAME, env.PB_PASSWORD);
 	const addCustomer = async () => {
 		try {
 			return await pb.collection('customers').create(pbCustomer);
 		} catch (error) {
-			return await pb.collection('customers').getFirstListItem(`phone = "${customerInfo.phone}"`);
+			return await pb.collection('customers').getFirstListItem(`phone="${customerInfo.phone}"`);
 		}
 	};
 	const addedCustomer = await addCustomer();
@@ -57,6 +60,7 @@ export const POST = async ({ request }) => {
 	};
 
 	const paymentLink = await payOS.createPaymentLink(order);
+	pb.authStore.clear();
 	return new Response(JSON.stringify({ url: paymentLink.checkoutUrl }), {
 		status: 200
 	});
