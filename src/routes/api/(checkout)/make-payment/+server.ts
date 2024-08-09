@@ -53,7 +53,7 @@ export const POST = async ({ request }) => {
 		description: 'mua tinh dau',
 		items: items,
 		returnUrl: `${MAIN_URL}/checkout/thank-you`,
-		cancelUrl: `${MAIN_URL}/support`
+		cancelUrl: `${MAIN_URL}/lien-he`
 	};
 
 	const paymentLink = await payOS.createPaymentLink(order);
