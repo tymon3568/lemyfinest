@@ -6,7 +6,7 @@
 	let scrolled = $state('');
 	let activeNav = $state('');
 	let isTransparent = $derived.by(() => {
-		if ($page.url.pathname.startsWith('/products') && $page.url.pathname !== '/products') {
+		if ($page.url.pathname.startsWith('/san-pham') && $page.url.pathname !== '/san-pham') {
 			return false;
 		} else if (
 			[
@@ -93,8 +93,8 @@
 			<button
 				id="products-dropdown-button"
 				type="button"
-				class="nav-item {activeNav === 'products' ? 'is-open' : ''}"
-				onclick={() => handleNavClick('products')}
+				class="nav-item {activeNav === 'san-pham' ? 'is-open' : ''}"
+				onclick={() => handleNavClick('san-pham')}
 				>Sản phẩm
 				<span class="closarrow ml-2"></span></button
 			>
@@ -167,7 +167,7 @@
 			</a>
 		</div>
 	</nav>
-	<div id="products-dropdown" class="nav-dropdown {activeNav === 'products' ? 'is-open' : ''}">
+	<div id="products-dropdown" class="nav-dropdown {activeNav === 'san-pham' ? 'is-open' : ''}">
 		<div class="container flex gap-12">
 			<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 flex-1">
 				<span
@@ -192,7 +192,7 @@
 							<span>Tinh Dầu Tinh Khiết Từ Thiên Nhiên - Đem Lại Sự Thư Giãn và Sức Khỏe</span>
 						</div>
 						<div class="flex flex-col md:flex-row gap-2 w-full">
-							<a href="/products" class="relative z-10 button button-secondary py-3 px-6 text-xs"
+							<a href="/san-pham" class="relative z-10 button button-secondary py-3 px-6 text-xs"
 								>Xem thêm</a
 							>
 							<!-- <a href="/configure/m1" class="relative z-10 button button-primary py-3 px-6 text-xs"
@@ -200,8 +200,8 @@
 							> -->
 						</div>
 					</div>
-					<a href="/products" class="absolute inset-0"
-						><span class="sr-only" data-svelte-h="svelte-nhyoqq">Explore</span></a
+					<a href="/san-pham" class="absolute inset-0"
+						><span class="sr-only" data-svelte-h="svelte-nhyoqq">Xem thêm</span></a
 					>
 				</div>
 				<!-- <div class="flex flex-col relative theme-white text-eerie px-2 py-4">
@@ -407,7 +407,7 @@
 					>
 					<div class="flex flex-col md:flex-row gap-2 w-full pt-4 mt-4 border-t border-white/5">
 						<a
-							href="/support"
+							href="/lien-he"
 							class="button button-tertiary bg-charcoal !border-transparent py-3 px-6 text-xs"
 							>Yêu cầu sản phẩm</a
 						>
@@ -610,7 +610,7 @@
 					class="flex flex-col items-start border border-white/10 hover:border-white/30 transition-colors duration-300 ease"
 					><div class="custom-filter">
 						<img
-							src="https://cdn.raster.app/goodnature/website/zHB6j3kFRC?ixlib=js-3.7.0&amp;height=1200&amp;compress=false&amp;width=300&amp;fm=webp&amp;s=118b7e699527fbc971f0bd8db6dcfee0"
+							src="/assets/images/nvtuvan.webp"
 							alt="Consulting"
 							draggable="false"
 							loading="lazy"
@@ -652,8 +652,8 @@
 					class="uppercase text-xs tracking-wide text-white/40 mb-4"
 					data-svelte-h="svelte-41wzc2">Thêm</span
 				>
-				<a href="/products/tinh-dau-sa" class="py-1.5 text-sm">Tinh dầu sả</a><a
-					href="/products/tinh-dau-bach-dan-chanh"
+				<a href="/san-pham/tinh-dau-sa" class="py-1.5 text-sm">Tinh dầu sả</a><a
+					href="/san-pham/tinh-dau-bach-dan-chanh"
 					class="py-1.5 text-sm">Tinh dầu bạch đàn chanh</a
 				>
 				<span

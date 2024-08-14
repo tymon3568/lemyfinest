@@ -3,10 +3,10 @@
 		<div class="overlay-image">
 			<img
 				class="h-full w-full object-cover"
-				src="https://images.prismic.io/goodnature/69f2c484-b3ee-43dc-8f64-7f91af244f5a_trees+and+path+in+forest+md.jpeg?auto=compress%2Cformat&amp;q=75"
+				src="/assets/images/rung-nam-cat-tien.webp"
 				alt="a forest with tres and a path"
 				sizes="(min-width: 2560px) 2560px, 100vw"
-				srcset="https://images.prismic.io/goodnature/69f2c484-b3ee-43dc-8f64-7f91af244f5a_trees+and+path+in+forest+md.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=512 512w, https://images.prismic.io/goodnature/69f2c484-b3ee-43dc-8f64-7f91af244f5a_trees+and+path+in+forest+md.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=768 768w, https://images.prismic.io/goodnature/69f2c484-b3ee-43dc-8f64-7f91af244f5a_trees+and+path+in+forest+md.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=1024 1024w, https://images.prismic.io/goodnature/69f2c484-b3ee-43dc-8f64-7f91af244f5a_trees+and+path+in+forest+md.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=1920 1920w, https://images.prismic.io/goodnature/69f2c484-b3ee-43dc-8f64-7f91af244f5a_trees+and+path+in+forest+md.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w, https://images.prismic.io/goodnature/69f2c484-b3ee-43dc-8f64-7f91af244f5a_trees+and+path+in+forest+md.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w"
+				srcset="/assets/images/rung-nam-cat-tien.webp 512w, /assets/images/rung-nam-cat-tien.webp 768w, /assets/images/rung-nam-cat-tien.webp  1024w, /assets/images/rung-nam-cat-tien.webp  1920w, /assets/images/rung-nam-cat-tien.webp  2560w, /assets/images/rung-nam-cat-tien.webp  2560w"
 				draggable="true"
 				loading="lazy"
 			/>
@@ -34,7 +34,7 @@
 			<div
 				class="flex flex-col justify-center md:pr-20 max-md:row-start-2 max-md:pt-16 max-md:col-start-2"
 			>
-				<h2 id="it-all-started-with-our-dad-and-his-passion" class="title text-4xl sm:text-5xl">
+				<h2 class="title text-4xl sm:text-5xl">
 					Tại Lemy - Essential Oil By You, câu chuyện của chúng tôi bắt đầu từ một niềm đam mê giản
 					dị nhưng mạnh mẽ
 				</h2>
@@ -56,10 +56,10 @@
 			>
 				<img
 					class="object-cover h-full w-full"
-					src="https://images.prismic.io/goodnature/17dd7528-631c-42ed-9140-8f0d200db4de_Dale+and+paige_Cropped.jpeg?auto=compress%2Cformat&amp;q=75"
+					src="/assets/images/lemy-thu-gian.webp"
 					alt=""
 					sizes="(min-width: 2560px) 2560px, 100vw"
-					srcset="https://images.prismic.io/goodnature/17dd7528-631c-42ed-9140-8f0d200db4de_Dale+and+paige_Cropped.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=512 512w, https://images.prismic.io/goodnature/17dd7528-631c-42ed-9140-8f0d200db4de_Dale+and+paige_Cropped.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=768 768w, https://images.prismic.io/goodnature/17dd7528-631c-42ed-9140-8f0d200db4de_Dale+and+paige_Cropped.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=1024 1024w, https://images.prismic.io/goodnature/17dd7528-631c-42ed-9140-8f0d200db4de_Dale+and+paige_Cropped.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=1920 1920w, https://images.prismic.io/goodnature/17dd7528-631c-42ed-9140-8f0d200db4de_Dale+and+paige_Cropped.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w, https://images.prismic.io/goodnature/17dd7528-631c-42ed-9140-8f0d200db4de_Dale+and+paige_Cropped.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w"
+					srcset="/assets/images/lemy-thu-gian.webp 512w, /assets/images/lemy-thu-gian.webp 768w, /assets/images/lemy-thu-gian.webp  1024w, /assets/images/lemy-thu-gian.webp  1920w, /assets/images/lemy-thu-gian.webp  2560w, /assets/images/lemy-thu-gian.webp  2560w"
 					draggable="true"
 					loading="lazy"
 				/>
@@ -70,10 +70,10 @@
 		<div class="absolute inset-0 bg-center bg-cover">
 			<img
 				class="object-cover w-full h-full"
-				src="https://images.prismic.io/goodnature/d2f11353-7032-4080-9d85-2927171e631c_99-letters2.png?auto=compress%2Cformat&amp;q=75"
+				src="/assets/images/thi-nghiem-tinh-dau.webp"
 				alt="letters and tress"
 				sizes="(min-width: 2560px) 2560px, 100vw"
-				srcset="https://images.prismic.io/goodnature/d2f11353-7032-4080-9d85-2927171e631c_99-letters2.png?auto=compress%2Cformat&amp;q=75&amp;width=512 512w, https://images.prismic.io/goodnature/d2f11353-7032-4080-9d85-2927171e631c_99-letters2.png?auto=compress%2Cformat&amp;q=75&amp;width=768 768w, https://images.prismic.io/goodnature/d2f11353-7032-4080-9d85-2927171e631c_99-letters2.png?auto=compress%2Cformat&amp;q=75&amp;width=1024 1024w, https://images.prismic.io/goodnature/d2f11353-7032-4080-9d85-2927171e631c_99-letters2.png?auto=compress%2Cformat&amp;q=75&amp;width=1920 1920w, https://images.prismic.io/goodnature/d2f11353-7032-4080-9d85-2927171e631c_99-letters2.png?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w, https://images.prismic.io/goodnature/d2f11353-7032-4080-9d85-2927171e631c_99-letters2.png?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w"
+				srcset="/assets/images/thi-nghiem-tinh-dau.webp 512w, /assets/images/thi-nghiem-tinh-dau.webp 768w, /assets/images/thi-nghiem-tinh-dau.webp  1024w, /assets/images/thi-nghiem-tinh-dau.webp  1920w, /assets/images/thi-nghiem-tinh-dau.webp  2560w, /assets/images/thi-nghiem-tinh-dau.webp  2560w"
 				draggable="true"
 				loading="lazy"
 			/>
@@ -126,10 +126,10 @@
 			>
 				<img
 					class="object-cover h-full w-full"
-					src="https://images.prismic.io/goodnature/e2094f23-62e4-4d79-b0c4-62b8cadc99e5_goodnature-m1-green-juice-bar-3.jpg?auto=compress%2Cformat&amp;q=75"
+					src="/assets/images/chai-tinh-dau.webp"
 					alt="Green Goodnature M-1 in a juice bar"
 					sizes="(min-width: 2560px) 2560px, 100vw"
-					srcset="https://images.prismic.io/goodnature/e2094f23-62e4-4d79-b0c4-62b8cadc99e5_goodnature-m1-green-juice-bar-3.jpg?auto=compress%2Cformat&amp;q=75&amp;width=512 512w, https://images.prismic.io/goodnature/e2094f23-62e4-4d79-b0c4-62b8cadc99e5_goodnature-m1-green-juice-bar-3.jpg?auto=compress%2Cformat&amp;q=75&amp;width=768 768w, https://images.prismic.io/goodnature/e2094f23-62e4-4d79-b0c4-62b8cadc99e5_goodnature-m1-green-juice-bar-3.jpg?auto=compress%2Cformat&amp;q=75&amp;width=1024 1024w, https://images.prismic.io/goodnature/e2094f23-62e4-4d79-b0c4-62b8cadc99e5_goodnature-m1-green-juice-bar-3.jpg?auto=compress%2Cformat&amp;q=75&amp;width=1920 1920w, https://images.prismic.io/goodnature/e2094f23-62e4-4d79-b0c4-62b8cadc99e5_goodnature-m1-green-juice-bar-3.jpg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w, https://images.prismic.io/goodnature/e2094f23-62e4-4d79-b0c4-62b8cadc99e5_goodnature-m1-green-juice-bar-3.jpg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w"
+					srcset="/assets/images/chai-tinh-dau.webp 512w, /assets/images/chai-tinh-dau.webp 768w, /assets/images/chai-tinh-dau.webp 1024w, /assets/images/chai-tinh-dau.webp 1920w, /assets/images/chai-tinh-dau.webp 2560w, /assets/images/chai-tinh-dau.webp 2560w"
 					draggable="true"
 					loading="lazy"
 				/>

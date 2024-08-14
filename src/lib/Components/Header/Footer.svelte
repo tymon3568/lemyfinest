@@ -1,12 +1,12 @@
-<footer class="section relative theme-dark text-white">
+<footer class="section relative theme-light text-white">
 	<img
 		class="h-full w-full object-cover absolute inset-0"
-		src="https://images.prismic.io/goodnature/592d123c-96cf-4908-963e-caf0fce4cc31_forrest.jpeg?auto=compress%2Cformat&amp;q=75"
+		src="/assets/images/footer-back-ground.webp"
 		alt="Foggy forrest"
 		width="2200"
 		height="1467"
 		sizes="(min-width: 2560px) 2560px, 100vw"
-		srcset="https://images.prismic.io/goodnature/592d123c-96cf-4908-963e-caf0fce4cc31_forrest.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=512 512w, https://images.prismic.io/goodnature/592d123c-96cf-4908-963e-caf0fce4cc31_forrest.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=768 768w, https://images.prismic.io/goodnature/592d123c-96cf-4908-963e-caf0fce4cc31_forrest.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=1024 1024w, https://images.prismic.io/goodnature/592d123c-96cf-4908-963e-caf0fce4cc31_forrest.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=1920 1920w, https://images.prismic.io/goodnature/592d123c-96cf-4908-963e-caf0fce4cc31_forrest.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w, https://images.prismic.io/goodnature/592d123c-96cf-4908-963e-caf0fce4cc31_forrest.jpeg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w"
+		srcset="/assets/images/footer-back-ground.webp 512w, /assets/images/footer-back-ground.webp 768w, /assets/images/footer-back-ground.webp  1024w, /assets/images/footer-back-ground.webp  1920w, /assets/images/footer-back-ground.webp  2560w, /assets/images/footer-back-ground.webp  2560w"
 		draggable="true"
 		loading="lazy"
 	/>
@@ -22,16 +22,16 @@
 				<div>
 					<h2 class="label mb-4">Sản phẩm</h2>
 					<div class="footer-nav-column">
-						<a href="/products/tinh-dau-sa" class="flex items-center gap-3 py-1.5 text-sm"
+						<a href="/san-pham/tinh-dau-sa" class="flex items-center gap-3 py-1.5 text-sm"
 							>Tinh dầu sả</a
-						><a href="/products/tinh-dau-buoi" class="flex items-center gap-3 py-1.5 text-sm"
+						><a href="/san-pham/tinh-dau-buoi" class="flex items-center gap-3 py-1.5 text-sm"
 							>Tinh dầu bưởi</a
-						><a href="/products/tinh-dau-cam-ngot" class="flex items-center gap-3 py-1.5 text-sm"
+						><a href="/san-pham/tinh-dau-cam-ngot" class="flex items-center gap-3 py-1.5 text-sm"
 							>Tinh dầu cam ngọt</a
-						><a href="/products/dau-mu-u" class="flex items-center gap-3 py-1.5 text-sm"
+						><a href="/san-pham/dau-mu-u" class="flex items-center gap-3 py-1.5 text-sm"
 							>Dầu mù u nguyên chất</a
 						><a
-							href="/products/tinh-dau-bach-dan-chanh"
+							href="/san-pham/tinh-dau-bach-dan-chanh"
 							class="flex items-center gap-3 py-1.5 text-sm">Tinh dầu bạch đàn chanh</a
 						>
 					</div>

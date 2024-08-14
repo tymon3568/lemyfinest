@@ -11,10 +11,10 @@
 	<div class="overlay-image">
 		<img
 			class="h-full w-full object-cover"
-			src="https://images.prismic.io/goodnature/3b24e727-9a78-4e85-91d7-ea282b6a5a10_WivhDUqKwM.jpg?auto=compress%2Cformat&amp;q=75"
+			src="/assets/images/lemyfinest-banner.webp"
 			alt="juice bottles overhead"
 			sizes="(min-width: 2560px) 2560px, 100vw"
-			srcset="https://images.prismic.io/goodnature/3b24e727-9a78-4e85-91d7-ea282b6a5a10_WivhDUqKwM.jpg?auto=compress%2Cformat&amp;q=75&amp;width=512 512w, https://images.prismic.io/goodnature/3b24e727-9a78-4e85-91d7-ea282b6a5a10_WivhDUqKwM.jpg?auto=compress%2Cformat&amp;q=75&amp;width=768 768w, https://images.prismic.io/goodnature/3b24e727-9a78-4e85-91d7-ea282b6a5a10_WivhDUqKwM.jpg?auto=compress%2Cformat&amp;q=75&amp;width=1024 1024w, https://images.prismic.io/goodnature/3b24e727-9a78-4e85-91d7-ea282b6a5a10_WivhDUqKwM.jpg?auto=compress%2Cformat&amp;q=75&amp;width=1920 1920w, https://images.prismic.io/goodnature/3b24e727-9a78-4e85-91d7-ea282b6a5a10_WivhDUqKwM.jpg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w, https://images.prismic.io/goodnature/3b24e727-9a78-4e85-91d7-ea282b6a5a10_WivhDUqKwM.jpg?auto=compress%2Cformat&amp;q=75&amp;width=2560 2560w"
+			srcset="/assets/images/lemyfinest-banner.webp 640w, /assets/images/lemyfinest-banner.webp 768w, /assets/images/lemyfinest-banner.webp  1024w, /assets/images/lemyfinest-banner.webp  1280w, /assets/images/lemyfinest-banner.webp  1536w"
 			draggable="true"
 			loading="lazy"
 		/>

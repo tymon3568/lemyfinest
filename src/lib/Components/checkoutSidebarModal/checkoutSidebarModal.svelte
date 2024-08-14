@@ -59,7 +59,7 @@
 								>
 							</div>
 							<p class="text-2xl font-semibold">Chưa có sản phẩm nào</p>
-							<a href="/products" class="button button-primary" onclick={() => (show = false)}
+							<a href="/san-pham" class="button button-primary" onclick={() => (show = false)}
 								><span>Tiếp tục mua sắm</span><svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="24"

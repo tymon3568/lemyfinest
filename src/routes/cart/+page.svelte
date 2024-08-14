@@ -239,7 +239,7 @@
 				<p class="text-sm max-w-[240px] mb-6">
 					… Bạn cần tư vấn thêm không? Hãy gọi hotline: 0949 743 369
 				</p>
-				<a href="/products" class="button button-primary"
+				<a href="/san-pham" class="button button-primary"
 					>Lựa sản phẩm
 					<svg
 						class="icon icon w-4 h-4"
